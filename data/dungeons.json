@@ -12,6 +12,7 @@
                     "<:priest:812527131325628467>",
                     "<:curse:812527131636138034>",
                     "<:slow:812527131493138483>"],
+    "color": "0xF3C449",
     "thumbnail": "https://cdn.discordapp.com/attachments/561246036870430770/708192230468485150/oryx_3_w.png"
   },
   {
@@ -23,6 +24,7 @@
                     "<:paladin:812527131492876311>",
                     "<:knight:812535728147005490>",
                     "<:priest:812527131325628467>"],
+    "color": "0x1B006D",
     "thumbnail": "https://i.imgur.com/7JGSvMq.png"
   },
   {
@@ -33,18 +35,28 @@
                     "<:warrior:812527131648720937>",
                     "<:paladin:812527131492876311>",
                     "<:knight:812535728147005490>"],
+    "color": "0xB21111",
     "thumbnail": "https://i.imgur.com/nPkovWR.png"
   },
   {
     "name":"The Shatters",
     "portalReact":"<:shatts_portal:812540190446321694>",
-    "keyReacts": ["<:lh_key:812535728231022602>"],
+    "keyReacts": ["<:shatts_key:812778393078202388>"],
     "classReacts": ["<:planewalker:812539456716406785>",
                     "<:mystic:812540190425874442>",
                     "<:trickster:812527131422490727>",
                     "<:warrior:812527131648720937>",
                     "<:paladin:812527131492876311>",
                     "<:knight:812535728147005490>"],
+    "color": "0x004236",
     "thumbnail": "https://static.drips.pw/rotmg/wiki/Enemies/shtrs%20The%20Forgotten%20King.png"
+  },
+  {
+    "name":"Abyss of Demons",
+    "portalReact":"<:abyss_portal:812778392684068865>",
+    "keyReacts": ["<:abyss_key:812778393014632458>"],
+    "classReacts": ["<:planewalker:812539456716406785>"],
+    "color": "0x6A1A1F",
+    "thumbnail": "https://media.discordapp.net/attachments/803483136893517824/812780150897901578/malphas.png"
   }
 ]
