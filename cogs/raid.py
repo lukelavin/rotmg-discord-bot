@@ -69,7 +69,8 @@ class Raid(commands.Cog):
 
         hc_embed = discord.Embed(
             title=hc_embed_title,
-            description=hc_embed_desc_portal + '\n' + hc_embed_desc_keys + '\n' + hc_embed_desc_classes
+            description=hc_embed_desc_portal + '\n' + hc_embed_desc_keys + '\n' + hc_embed_desc_classes,
+            colour=int(selected_data['color'], 16)
         )
         hc_embed.set_footer(text='Headcount started ')
         hc_embed.set_thumbnail(url=discord.Embed.Empty)

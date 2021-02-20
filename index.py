@@ -4,7 +4,7 @@ import os
 from discord.ext import commands
 
 cogs_path = 'cogs'
-client = commands.Bot(command_prefix='$')
+client = commands.Bot(command_prefix=os.getenv('bot_prefix', default='$'))
 logging.basicConfig(level=logging.INFO)
 
 for filename in os.listdir(cogs_path):
