@@ -2,7 +2,6 @@ import logging
 import os
 
 from discord.ext import commands
-from cogwatch import Watcher
 
 cogs_path = 'cogs'
 client = commands.Bot(command_prefix='$')
