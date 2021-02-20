@@ -5,6 +5,7 @@ from discord.ext import commands
 from index import cogs_path
 
 class Admin(commands.Cog):
+    """Admin commands to dynamically manage modules."""
     def __init__(self, client, logger):
         self.client = client
         self.logger = logger

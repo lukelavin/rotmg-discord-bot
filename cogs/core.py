@@ -11,13 +11,15 @@ class Core(commands.Cog):
         self.client = client
 
     @commands.command()
+    @commands.is_owner()
     async def delete(self, ctx):
         print(f'[{datetime.now()}] Deleted message with content: "{ctx.message.content}" from #{ctx.channel.name} in <{ctx.guild.name}>')
         await ctx.message.delete()
 
     @commands.command()
-    async def sayhi(self, ctx):
-        await ctx.channel.send('hi')
+    @commands.is_owner()
+    async def ping(self, ctx):
+        await ctx.channel.send('pong')
 
 def setup(client):
     print("Added core cog")
