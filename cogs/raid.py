@@ -10,6 +10,7 @@ from discord.ext import commands
 from datetime import datetime
 
 class Raid(commands.Cog):
+    """Raiding headcounts and related commands"""
     def __init__(self, client, logger):
         self.client = client
         self.logger = logger
