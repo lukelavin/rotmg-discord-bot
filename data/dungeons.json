@@ -1,0 +1,50 @@
+[
+  {
+    "name":"Oryx 3",
+    "portalReact":"<:o3_portal:812452796406169630>",
+    "keyReacts": ["<:inc:812456048375889942>",
+                    "<:shield_rune:812456048727294012>",
+                    "<:sword_rune:812456048824549398>",
+                    "<:helm_rune:812456048744726578>"],
+    "classReacts": ["<:warrior:812527131648720937>",
+                    "<:paladin:812527131492876311>",
+                    "<:trickster:812527131422490727>",
+                    "<:priest:812527131325628467>",
+                    "<:curse:812527131636138034>",
+                    "<:slow:812527131493138483>"],
+    "thumbnail": "https://cdn.discordapp.com/attachments/561246036870430770/708192230468485150/oryx_3_w.png"
+  },
+  {
+    "name":"Void",
+    "portalReact":"<:lh_portal:812535727962456085>",
+    "keyReacts": ["<:lh_key:812535728231022602>",
+                    "<:vial:812535728282009610>"],
+    "classReacts": ["<:warrior:812527131648720937>",
+                    "<:paladin:812527131492876311>",
+                    "<:knight:812535728147005490>",
+                    "<:priest:812527131325628467>"],
+    "thumbnail": "https://i.imgur.com/7JGSvMq.png"
+  },
+  {
+    "name":"Cultist Hideout",
+    "portalReact":"<:cult_portal:812539181678329916>",
+    "keyReacts": ["<:lh_key:812535728231022602>"],
+    "classReacts": ["<:planewalker:812539456716406785>",
+                    "<:warrior:812527131648720937>",
+                    "<:paladin:812527131492876311>",
+                    "<:knight:812535728147005490>"],
+    "thumbnail": "https://i.imgur.com/nPkovWR.png"
+  },
+  {
+    "name":"The Shatters",
+    "portalReact":"<:shatts_portal:812540190446321694>",
+    "keyReacts": ["<:lh_key:812535728231022602>"],
+    "classReacts": ["<:planewalker:812539456716406785>",
+                    "<:mystic:812540190425874442>",
+                    "<:trickster:812527131422490727>",
+                    "<:warrior:812527131648720937>",
+                    "<:paladin:812527131492876311>",
+                    "<:knight:812535728147005490>"],
+    "thumbnail": "https://static.drips.pw/rotmg/wiki/Enemies/shtrs%20The%20Forgotten%20King.png"
+  }
+]
