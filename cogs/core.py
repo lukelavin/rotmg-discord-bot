@@ -16,8 +16,8 @@ class Core(commands.Cog):
         await ctx.message.delete()
 
     @commands.command()
-    async def sayhi(self, ctx):
-        await ctx.channel.send('hi')
+    async def ping(self, ctx):
+        await ctx.channel.send('pong')
 
 def setup(client):
     print("Added core cog")
